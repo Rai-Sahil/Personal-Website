@@ -1,0 +1,41 @@
+[
+    {
+        "id": "1",
+        "icon": "🔐",
+        "title": "Fully Homomorphic Encryption for Encrypted APIs with Zero-Knowledge Proof",
+        "abstract": "This research presents a novel approach to securing APIs using Fully Homomorphic Encryption (FHE) and Zero- Knowledge Proofs (ZKPs). Traditional APIs, even those secured with HTTPS, expose user data to potential risks. Our solution proposes a Node.js backend where all user data and requests remain encrypted end-to-end, leveraging FHE for computation on encrypted data and ZKPs for authentication without passwords. This approach ensures that even the server cannot access sensitive user information, making it ideal for high-security environments such as covert communication systems. We demonstrate the fea- sibility of our approach through a prototype implementation and discuss its potential applications and benefits. The experimental results show that our system achieves strong security guarantees while maintaining reasonable performance, paving the way for practical deployment in real-world scenarios",
+        "badges": [
+            "Backend Dev",
+            "Security",
+            "Golang",
+            "Encryption",
+            "REST API"
+        ]
+    },
+    {
+        "id": "2",
+        "icon": "📊",
+        "title": "Multi-Agent AI Model to Enhance Self-Regulated Learning and Conceptual Understanding in Education",
+        "abstract": "This research explores the integration of a multi-agent AI system to enhance self-regulated learning in Computer Science Education. The system includes a Teaching Assistant Artificial Intelligence (AI), which provides hints during multiple-choice quizzes, an Analytics-AI that identifies patterns of conceptual confusion, and an AI-Improver that refines the system based on student feedback. Grounded in self-determination theory, SRL principles, and cognitive apprenticeship, this approach fosters autonomy, motivation, and conceptual understanding while providing instructors with actionable insights. Evaluation will focus on student performance, AI usage patterns, and satisfaction, assessing the AI’s role in supporting learning. This study demonstrates how AI-driven assessment tools can create personalized learning environments, with future work extending the system to broader disciplines.",
+        "badges": [
+            "Machine Learning",
+            "OpenAI",
+            "TypeScript",
+            "Node.js",
+            "Data Analysis"
+        ]
+    },
+    {
+        "id": "3",
+        "icon": "🤖",
+        "title": "Evaluation of Pruning Techniques",
+        "abstract": "We present a scalable, end-to-end workflow for protein design. By augmenting protein sequences with natural language descriptions of their biochemical properties, we train generative models that can be preferentially aligned with protein fitness landscapes. Through complex experimental-and simulation-based observations, we integrate these measures as preferred parameters for generating new protein variants and demonstrate our workflow on five diverse supercomputers. We achieve less then 1 ExaFLOPS sustained performance in mixed precision on each supercomputer and a maximum sustained performance of 4.11 Ex-aFLOPS and peak performance of 5.57 ExaFLOPS. We establish the scientific performance of our model on two tasks: (1) across a predetermined benchmark dataset of deep mutational scanning experiments to optimize the fitness-determining mutations in the yeast protein HIS7, and (2) in optimizing the design of the enzyme malate dehydrogenase to achieve lower activation barriers (and therefore increased catalytic rates) using simulation data. Our implementation thus sets high watermarks for multimodal protein design workflows.",
+        "badges": [
+            "Machine Learning",
+            "Neural Networks",
+            "Python",
+            "Tensorflow",
+            "Edge Computing"
+        ]
+    }
+]
