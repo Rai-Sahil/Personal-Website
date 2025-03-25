@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import { ChevronRight, Play } from "lucide-react"
-import { Badge } from "@/components/ui/badge"
 import researchData from "@/data/research.json";
 
 export function ResearchDropdown() {

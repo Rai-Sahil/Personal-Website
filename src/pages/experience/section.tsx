@@ -1,4 +1,3 @@
-import { Badge } from "@/components/ui/badge"
 import EducationSection from "../education"
 
 export default function ExperienceSection() {

@@ -1,17 +1,11 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronDown, Play } from "lucide-react"
+import { ChevronDown } from "lucide-react"
 import { Link } from "react-router-dom";
 
 export function MostRecentBlog() {
     const [isOpen, setIsOpen] = useState(false);
-    const [moredataSeletecd, setMoreDataSelected] = useState<null | string>(null);
-
-    const data = {
-        work: "This is what I work on. Details about my projects and work experience.",
-        journey: "This is how I got here. A brief story about my journey.",
-    };
 
     const toggleDropdown = () => {
         setIsOpen(!isOpen)
