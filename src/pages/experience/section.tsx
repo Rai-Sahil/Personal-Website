@@ -1,4 +1,5 @@
 import EducationSection from "../education"
+import VolunteerSection from "../volunteer/table"
 
 export default function ExperienceSection() {
   return (
@@ -66,6 +67,10 @@ export default function ExperienceSection() {
         </table>
       </div>
 
+      {/* <div className="mt-9">
+        <VolunteerSection />
+      </div> */}
+
       <div className="mt-9">
         <EducationSection />
       </div>
@@ -75,17 +80,37 @@ export default function ExperienceSection() {
 
 const experiences = [
   {
-    id: "software-engineer",
-    position: "Software Engineer",
-    organization: "FusionWare Integration",
-    department: "Computing, Environment and Life Sciences",
-    location: "Lemont, IL",
-    orgLink: "https://www.alcf.anl.gov/",
-    startDate: "2024",
-    startDateFull: "December",
+    id: "sde-ii",
+    position: "Software Developer II",
+    organization: "Autodesk",
+    department: "Identity and Licensing (IDL)",
+    location: "Vancouver, BC",
+    orgLink: "https://autodesk.com",
+    startDate: "2025",
+    startDateFull: "April",
     endDate: "Present",
     endDateFull: "",
     current: true,
+    employmentType: "Full-time",
+    duration: "1 year, 5 months",
+    shortDescription:
+      "Leading research in high-performance computing applications for scientific simulations and machine learning models for computational science.",
+    expandedDescription:
+      "Developing novel computational methods and algorithms to accelerate scientific discovery through the use of leadership computing resources. Focusing on the intersection of traditional HPC, machine learning, and quantum computing to solve complex scientific problems that were previously intractable.",
+    keySkills: ["HPC", "Machine Learning", "Quantum Computing", "Python", "C++", "CUDA"],
+  },
+  {
+    id: "backend-engineer",
+    position: "Backend Engineer",
+    organization: "FusionWare Integration",
+    department: "Computing, Environment and Life Sciences",
+    location: "Vancouver, BC",
+    orgLink: "https://www.alcf.anl.gov/",
+    startDate: "2024",
+    startDateFull: "December",
+    endDate: "2025",
+    endDateFull: "April",
+    current: false,
     employmentType: "Full-time",
     duration: "1 year, 5 months",
     shortDescription:
@@ -102,9 +127,9 @@ const experiences = [
     location: "Lemont, IL",
     orgLink: "https://www.alcf.anl.gov/",
     startDate: "2019",
-    startDateFull: "September 2019",
+    startDateFull: "September",
     endDate: "2022",
-    endDateFull: "December 2021",
+    endDateFull: "December",
     current: false,
     employmentType: "Part-time",
     duration: "2 years, 4 months",
@@ -122,9 +147,9 @@ const experiences = [
     location: "Argonne, IL",
     orgLink: "https://www.anl.gov/",
     startDate: "2018",
-    startDateFull: "January 2018",
+    startDateFull: "January",
     endDate: "2019",
-    endDateFull: "August 2019",
+    endDateFull: "August",
     current: false,
     employmentType: "Full-time",
     duration: "1 year, 8 months",
@@ -142,9 +167,9 @@ const experiences = [
     location: "Argonne, IL",
     orgLink: "https://www.anl.gov/",
     startDate: "2018",
-    startDateFull: "January 2018",
+    startDateFull: "January",
     endDate: "2019",
-    endDateFull: "August 2019",
+    endDateFull: "August",
     current: false,
     employmentType: "Full-time",
     duration: "1 year, 8 months",

@@ -9,6 +9,7 @@ import { Publication } from "./pages/publication";
 import ExperienceSection from "./pages/experience/section";
 import ResearchSection from "./pages/research/page";
 import Resume from "@/assets/Sahil_Rai_Resume_v1.pdf";
+import { SkillsSection } from "./pages/skills";
 
 function App() {
   return (
@@ -87,11 +88,11 @@ function App() {
             <div className="flex flex-wrap justify-center gap-[1rem] text-[rgb(34,34,34)] mt-5">
               {[
                 { to: "/", icon: "🧑‍💻", label: "About" },
+                { to: "/skills", icon: "💪", label: "Skills" },
                 { to: "/research", icon: "📚", label: "Research" },
                 { to: "/publication", icon: "📝", label: "Publications" },
                 { to: "/projects", icon: "📦", label: "Projects" },
                 { to: "/experience", icon: "🌲", label: "Experience" },
-                { to: "/reference", icon: "", label: "Reference" },
               ].map(({ to, icon, label }) => (
                 <NavLink
                   key={to}
@@ -113,6 +114,7 @@ function App() {
             <Route path="/publication" element={<Publication />} />
             <Route path="/experience" element={<ExperienceSection />} />
             <Route path="/research" element={<ResearchSection />} />
+            <Route path='/skills' element={<SkillsSection />} />
           </Routes>
         </ main>
       </div>
