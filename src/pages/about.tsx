@@ -8,13 +8,17 @@ export function About() {
                 <div className="w-1/2 pr-4">
                     <ul className="mt-2 list-disc pl-6">
                         <li>
-                            Software Engineer @ FusionWare Integration Corp.
+                            <span>Software Development Engineer II @ </span>
+                            <a href="https://www.autodesk.com" className="text-blue-500 underline decoration-blue-500 underline-offset-3 hover:decoration-3 hover:bg-pink-100 hover:text-pink-500 hover:decoration-pink-500 transition-all duration-300 hover:underline font-medium">
+                            <span>Autodesk</span>
+                            </a>
                             <ul className="list-[circle] pl-6">
                                 <li className="mt-1">
                                     Building secure & scalable systems
                                 </li>
                             </ul>
                         </li>
+
                         <li>
                             Working on:
                             <ul className="list-[circle] pl-6">

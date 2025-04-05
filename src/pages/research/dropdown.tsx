@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { ChevronRight, Play } from "lucide-react"
 import researchData from "@/data/research.json";
-import { AccuracyVsPruningGraph, SpeedupComparisonGraph } from "@/components/graph/1";
+import { SpeedupComparisonGraph } from "@/components/graph/1";
 
 export function ResearchDropdown() {
   const openData: any = {};

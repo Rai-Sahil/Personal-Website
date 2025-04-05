@@ -39,10 +39,10 @@ export function SkillsSection() {
                         </div>
                     </li>
 
-                    <li className="mt-3"><span className="text-xs">💾 </span>Database
+                    <li className="mt-3"><span className="text-xs">💾 </span>Database Management
                         <div>
                             <ul className="list-[circle] pl-9">
-                                <li>SQL (<b>Postgres</b>, MySQL, SQL Server, SQLite)</li>
+                                <li>SQL (<b>PostgreSQL</b>, MySQL, SQL Server, SQLite)</li>
                                 <li>NoSQL (<b>MongoDB</b>, Redis Caching, Cosmos, Firebase)</li>
                             </ul>
                         </div>

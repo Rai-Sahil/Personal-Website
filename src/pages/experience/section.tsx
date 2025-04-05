@@ -1,5 +1,4 @@
 import EducationSection from "../education"
-import VolunteerSection from "../volunteer/table"
 
 export default function ExperienceSection() {
   return (
@@ -122,7 +121,7 @@ const experiences = [
   {
     id: "fullstack",
     position: "Full Stack Developer",
-    organization: "Risings Edu",
+    organization: "Risings Education",
     department: "Leadership Computing Facility",
     location: "Lemont, IL",
     orgLink: "https://www.alcf.anl.gov/",
@@ -142,7 +141,7 @@ const experiences = [
   {
     id: "software-dev",
     position: "Software Engineer",
-    organization: "Buble Tech",
+    organization: "Buble Social",
     department: "Environmental Science Division",
     location: "Argonne, IL",
     orgLink: "https://www.anl.gov/",

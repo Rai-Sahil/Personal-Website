@@ -49,7 +49,7 @@ export function Publication() {
 
                     <li>
                         <Link to="#" className="text-blue-500 underline underline decoration-blue-500 underline-offset-3 hover:decoration-3 hover:bg-pink-100 hover:text-pink-500 hover:decoration-pink-500 transition-all duration-300">
-                            Thorough Characterization and Analysis of Large Transformer Model Training At-Scale
+                            Multi-Agent AI Model to Enhance Self-Regulated Learning and Conceptual Understanding in Education
                         </Link>
                         <p className="text-gray-500">Proc. ACM Meas. Anal. Comput. Syst. 03/2024</p>
                     </li>
